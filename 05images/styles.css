@@ -1,0 +1,144 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+/* header stuff here */
+header {
+    background-color: #ee1515;
+    padding: 1rem 10px;
+}
+header span {
+    color: #f0f0f0;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: #222224;
+}
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #f0f0f0;
+    font-weight: 700;
+}
+nav li.active a {
+    background-color: #f0f0f0;
+    color: #222224;
+}
+
+nav li a:hover {
+    color: #ee1515;
+}
+
+/* main stuff here */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #f00000;
+}
+main h2 {
+    color: #222224;
+    margin-bottom: .2rem;
+}
+main p {
+    margin: 0;
+    color: black;
+}
+main ol {
+    padding: .5rem 30px;
+    background-color: #f0f0f0;
+}
+main dl dt {
+    color: #f00000;
+    font-weight: 700;
+    margin-top: .8rem;
+}
+main dl dd {
+    color: black;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+main ul {
+    list-style-type: "☆ ";
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: 1.1rem;
+}
+main strong {
+    font-weight: 700;
+    color: #f00000;
+}
+main em {
+    font-weight: 300;
+}
+main address {
+    color: #f0f0f0;
+    font-style: normal;
+    background-color: #333;
+    padding: .5rem;
+    border-radius: 20px;
+    border: 1.5px solid #f00000;
+    width: 300px;
+}
+main a {
+    color: #f00000;
+}
+main a:hover {
+    color: black;
+}
+/* Main Image */
+figure.wrapped {
+    margin: 0 0 0 10px;
+    width: 5%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+/* Gallery Stuff */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;  
+}
+div.gallery figure {
+    margin: 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: black;
+}
+/* footer stuff here */
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 1rem 0;
+    clear: both;
+}
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #222224;
+    letter-spacing: 2px;
+}
