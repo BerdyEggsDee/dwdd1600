@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Braden Jackson">
+    <meta name="description" content="Your one-stop shop for everything related to Shiny Pokemon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shiny Hunting Tools: Methods</title>
+</head>
+
+<body>
+    <header>
+        <span>Shiny Hunting Tools</span>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="methods.html">Methods</a></li>
+            <li><a href="counter.html">Counter</a></li>
+            <li><a href="dex.html">Dex</a></li>
+            <li class="active"><a href="requests.html">Requests</a></li>
+            <li><a href="help.html">Help</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Personalized Intructions</h1>
+        <p>Get personalized shiny hunting instructions for your favorite pokemon sent to your email!</p>
+        
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>Name* <input type="text" name="name" required placeholder="Gary Oak"></label>
+                <label>Email* <input type="email" name="email" required placeholder="garyoak@professor.com"></label>
+                <label>Phone<input type="tel" name="phone" placeholder="123-456-7890"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Select a Game</legend>
+                    <label><input type="radio" name="game" value="rby">Red/Blue/Yellow</label>
+                    <label><input type="radio" name="game" value="sgc">Silver/Gold/Crystal</label>
+                    <label><input type="radio" name="game" value="rse">Ruby/Sapphire/Emerald</label>
+                    <label><input type="radio" name="game" value="frlg">FireRed/LeafGreen</label>
+                    <label><input type="radio" name="game" value="dpp">Diamond/Pearl/Platinum</label>
+                    <label><input type="radio" name="game" value="hgss">HeartGold/SoulSilver</label>
+                    <label><input type="radio" name="game" value="bwb2w2">Black(2)/White(2)</label>
+                    <label><input type="radio" name="game" value="xy">X/Y</label>
+                    <label><input type="radio" name="game" value="oras">Omega Ruby/Alpha Sapphire</label>
+                    <label><input type="radio" name="game" value="smusum">(Ultra) Sun/(Ultra) Moon</label>
+                    <label><input type="radio" name="game" value="lgplge">Let's Go, Pikachu!/Let's Go, Eevee!</label>
+                    <label><input type="radio" name="game" value="swsh">Sword/Shield</label>
+                    <label><input type="radio" name="game" value="bdsp">Brilliant Diamond/Shining Pearl</label>
+                    <label><input type="radio" name="game" value="pla">Legends: Arceus</label>
+                    <label><input type="radio" name="game" value="sv">Scarlet/Violet</label>
+                    <label><input type="radio" name="game" value="plza">Legends: Z-A</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Methods</legend>
+                    <label><input type="checkbox" name="masuda" value="chosen"> Masuda Method</label>
+                    <label><input type="checkbox" name="encounters" value="chosen"> Random Enounters</label>
+                    <label><input type="checkbox" name="chaining" value="chosen"> Chain Methods</label>
+                    <label><input type="checkbox" name="resetting" value="chosen"> Soft Resetting</label>
+
+                    <label>Pokemon Wanted
+                        <select name="pokemon">
+                            <option value="none">Please Select</option>
+                            <option value="charmander">Charmander</option>
+                            <option value="bulbasaur">Bulbasaur</option>
+                            <option value="squirtle">Squirtle</option>
+                            <option value="pikachu">Pikachu</option>
+                            <option value="jigglypuff">Jigglypuff</option>
+                            <option value="meowth">Meowth</option>
+                            <option value="psyduck">Psyduck</option>
+                        </select>
+                    </label>
+            </fieldset>
+
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+
+            <input type="submit" value="Send Delivery Request">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 &bull; Braden Jackson &bull; DWDD Project</p>
+    </footer>
+
+</body>
+
+</html>
